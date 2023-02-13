@@ -359,9 +359,6 @@ def level3Start():
         print("To be continued...")
         quit()
 
-
-#if __name__ == "__main__":
-#    while True:
 print("\n\nWelcome to an adventure created for Alexander and Madeline!\n")
 print("During this adventure, you can use simple commands like \"left\", \"right\", \"backwards\", and \"forwards\", to")
 print("navigate around\n")
