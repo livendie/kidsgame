@@ -4,7 +4,7 @@ def cavernStart():
     directions = ["left","right","forward"]
     print("You push the bookshelf out of the way and notice a opening into a cavern behind it. You are just small enough to")
     print("fit through. You get on your hands and knees and enter the cavern. Inside the cavern, you enter a room no bigger")
-    print("than a couple beds wide and just tall enough for you to stand up in. In front of you and on both sides of you,")
+    print("than a couple beds wide and just tall enough for you to stand up. In front of you and on both sides of you,")
     print("you see other openings.\n")
     userInput = ""
     while userInput not in directions:
@@ -23,13 +23,13 @@ def cavernStart():
 def weapon11():
     directions = ["forward","right","backward"]
     global weapon
-    print("\nin front if you is a wall with a picture on it\n")
+    print("\nIn front if you is a wall with a picture on it\n")
     userInput = ""
     while userInput not in directions:
         print("Options: forward/right/backward\n")
         userInput = input("> ")
         if userInput == "forward":
-            print("You examine the picture and find that there is something behind it. It's a sword\n")
+            print("\nYou examine the picture and find that there is something behind it. It's a sword\n")
             weapon = True
             print("Options: continue/back\n")
             userInput = input("> ")
